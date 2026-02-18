@@ -71,23 +71,26 @@ button:hover {
     font-weight: bold;
 }
 .projects {
-    margin-top: 80px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 .projects h2 {
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 .projects-list {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 .project-card {
-    background: white;
-    padding: 25px;
-    width: 260px;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    background: #f7f7f7;
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     text-align: center;
 }
 .project-card h3 {
